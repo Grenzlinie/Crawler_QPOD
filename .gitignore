@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Allow directories so whitelisted file types can be tracked
+!*/
+
+# Track Python and Markdown sources (any depth)
+!*.py
+!*.md
+
+# Keep the ignore file itself
+!.gitignore
