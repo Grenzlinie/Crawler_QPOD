@@ -21,7 +21,7 @@ except ImportError:  # pragma: no cover - fallback if tqdm not installed
     tqdm = None
 
 BASE_URL = "https://qpod.fysik.dtu.dk/material/{id}/download/cif"
-DEFAULT_IDS_FILE = pathlib.Path(__file__).with_name("missing_ids.txt")
+DEFAULT_IDS_FILE = pathlib.Path(__file__).with_name("qpod_sid73_material_ids.txt")
 DEFAULT_OUTPUT_DIR = pathlib.Path(__file__).with_name("cif_downloads")
 DEFAULT_LOG_PATH = pathlib.Path(__file__).with_name("download_status.csv")
 
